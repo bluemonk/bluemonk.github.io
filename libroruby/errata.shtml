@@ -121,16 +121,6 @@
 		
         <hr />
         
-        <div>    
-            <p>
-                Qualora rilevaste degli errori, siete invitati a segnalarli 
-                inviando una e-mail al seguente indirizzo:            
-            </p>
-            
-            <address><a href="mailto:errata@marcoceresa.com">errata@marcoceresa.com</a></address>
-            
-        <!-- /col -->
-        </div>
 
     <!-- /clear-float -->
     </div>
