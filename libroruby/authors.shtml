@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gli Autori [Ruby per applicazioni web]</title>
+<meta name="description" content="Ruby per applicazioni web, il primo libro italiano su Ruby" /> 
+<link rel="stylesheet" href="s/site.css" type="text/css" media="screen" />
+
+<meta name="description" content="Ruby per applicazioni web, il primo libro italiano su Ruby" /> 
+<link rel="stylesheet" href="s/site.css" type="text/css" media="screen" />
+</head>
+<body>
+
+<div class="hidden"><a href="authors.shtml#content">Skip to contents</a></div>    
+<div id="header">                
+
+    <h1><span>Ruby</span> per applicazioni web</h1>
+
+    <ul id="top-menu" class="clear-float">
+        <li><a href="index.html">Il Libro</a></li>
+       <!--  <li><a href="./toc.shtml">Indice</a></li>  -->
+        <li id="current"><a href="authors.shtml">Gli Autori</a></li>
+        <li><a href="toc.shtml">Indice</a></li> 
+        <li><a href="errata.shtml">Errata</a></li>
+    </ul>
+   
+</div> <!-- /header -->
+
+<div id="main-w">
+<div id="main">
+    
+    <h2>Gli Autori</h2>
+        
+    <div class="clear-float">
+            
+        <div class="col1 last" id="authors">    
+            <dl>
+
+                <dt id="a-ceresa">Marco Ceresa
+                </dt>
+                <dd class="box">
+                <p>
+                    Senior Network Engineer, ha lavorato per diverse multinazionali in tutta Europa. 
+                    Ha conseguito le maggiori certificazioni del settore (Microsoft, Cisco, Solaris, Linux) e collaborato 
+                    con varie riviste nazionali e internazionali, ricoprendo anche la carica di direttore tecnico. 
+                    &Egrave; autore di numerosi saggi e articoli. Ha cominciato a utilizzare Ruby nel 2000, in ambito sistemistico 
+                    e nel campo del networking. Per Ruby ha sviluppato la libreria <code>Net::DNS</code>.
+                </p>
+                </dd>
+
+
+                <dt id="a-bianco">Alessandro Bianco
+                </dt>
+                <dd>
+                Network Engineer e sistemista Linux, ha lavorato per anni presso l'università di Catanzaro come responsabile del Ced. Certificato Linux e Cisco, attualmente si trova in Irlanda in qualità di consulente enterprise. &Egrave; autore delle appendici A, C, D, E, oltre ad essere il revisore linguistico di tutto il libro.
+                </dd>
+                
+                <dt id="a-cangiano">Antonio Cangiano
+                </dt>
+                <dd>
+                Di istanza ai laboratori IBM di Toronto, è stato uno dei precursori di .Net prima e di Ruby poi nel panorama italiano. Autore della appendice F, è tra i creatori del già citato StarterKit IBM per Ruby, Rails e DB/2. 
+                Maggiori informazioni sulla sua <a href="http://www.antoniocangiano.com/">homepage</a>. 
+                </dd>
+                
+                <dt id="a-oluyede">Lawrence Oluyede
+                </dt>
+                <dd>
+                Compreso nella schiera dei grandi pythonisti a livello internazionale, si occupa prevalentemente di sviluppo con Python e Ruby. Ha scritto il capitolo 17 sulle tecnologie RSS e Atom, oltre alla sezione su XPath nel capitolo 16 ed innumerevoli contributi in tutto il libro.  
+                </dd>
+
+                <dt id="a-renzi">Gabriele Renzi
+                </dt>
+                <dd>
+                Leader indiscusso della comunità Ruby italiana, figura carismatica ed eccellente sviluppatore, è stato tra i primi a portare Ruby in Italia. Suo il capitolo 19 sui test, suoi altri box ed altre varie aggiunte lungo tutto il libro. Senza di lui, questo sarebbe stato un libro molto meno autorevole.
+                </dd>
+
+                <dt id="a-wieland">Nicholas Wieland
+                </dt>
+                <dd>            
+                Compagno di avventure sin dagli esordi in questo progetto, Nicholas è uno dei maggiori esperti italiani di database ed il maggiore esperto di Rails. Precursore di Python e Ruby in Italia, è non a caso autore del capitolo 6 sulle librerie per l'accesso ai vari database.
+                </dd>
+     
+            </dl>
+            
+            <p>
+            Tra i revisori, preziosissimi i contributi di <b>Piergiuliano Bossi</b> e <b>Luigi Panzeri</b>, sempre attenti nel puntualizzare ciò che rischiava di essere fuori posto o non sufficientemente chiaro.
+            </p>
+
+        <!-- /col -->
+        </div>
+
+    <!-- /clear-float -->
+    </div>
+
+<!-- /main -->
+</div> 
+<!-- /main-w -->
+</div> 
+
+<!--#config timefmt="%d %b %Y" -->
+<div id="footer">    
+    <p>    
+       <a href="authors.shtml#header">Top &uarr;</a> | 
+       <a href="index.html">Il Libro</a> |       
+       <a href="authors.shtml">Gli Autori</a> |
+       <a href="toc.shtml">Indice</a> | 
+       <a href="errata.shtml">Errata</a>  
+    </p>                    
+    
+    <p id="copryright">
+       Copyright &copy; 2006 Marco Ceresa. Tutti i diritti riservati. Sito web realizzato da <a href="http://passiomatic.com/">Andrea Peltrin</a>.
+    </p>        
+    
+    <p id="last-modified">Ultimo aggiornamento <!--#echo var="LAST_MODIFIED" --></p>
+<!-- /footer -->
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Errata [Ruby per applicazioni web, il primo libro italiano su Ruby]</title>
+<meta name="description" content="Ruby per applicazioni web, il primo libro italiano su Ruby" /> 
+<link rel="stylesheet" href="s/site.css" type="text/css" media="screen" />
+
+<meta name="description" content="Ruby per applicazioni web, il primo libro italiano su Ruby" /> 
+<link rel="stylesheet" href="s/site.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="s/errata.css" type="text/css" />
+</head>
+<body>
+
+<div class="hidden"><a href="errata.shtml#content">Skip to contents</a></div>    
+<div id="header">                
+
+    <h1><span>Ruby</span> per applicazioni web</h1>
+
+    <ul id="top-menu" class="clear-float">
+        <li><a href="index.html">Il Libro</a></li>
+        <li><a href="authors.shtml">Gli Autori</a></li>
+        <li><a href="toc.shtml">Indice</a></li> 
+        <li id="current"><a href="errata.shtml">Errata</a></li>
+    </ul>
+   
+</div> <!-- /header -->
+
+<div id="main-w">
+<div id="main">
+
+    <h2>Errata</h2>
+    <div class="clear-float">
+<table id="errata">
+    <thead>
+        <tr>
+            <th>Pagina</th>
+            <th>Errore</th>
+            <th>Correzione</th>
+            <th>Segnalazione</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        <tr>
+            <td>25
+            </td>
+            <td><code>class LibroFantascienza</code>
+            </td>  
+            <td><code>class LibroFantascienza &lt; Libro</code>
+            </td> 
+            <td>Luca Prinzio
+            </td>             
+        </tr>
+
+        <tr class="alt">
+            <td>59
+            </td>
+            <td>variabile di istanza <code>@libro</code>
+            </td>  
+            <td>variabile di istanza <code>@titolo</code>
+            </td> 
+            <td>Mauro Scarpa
+            </td>             
+        </tr>
+
+
+        <tr>
+            <td>80
+            </td>
+            <td><code>rrequire 'pstore'</code>
+            </td>  
+            <td><code>require 'pstore'</code>
+            </td> 
+            <td>Mauro Scarpa
+            </td>             
+        </tr>
+
+
+        <tr  class="alt">
+            <td>259; 273; 285;
+            </td>
+            <td>Il sommario &egrave; lo stesso del capitolo 12
+            </td>  
+            <td>Sommario relativo al capitolo esatto
+            </td> 
+            <td>Marco S.; Mauro Scarpa
+            </td>             
+        </tr>
+	
+	<tr>
+	<td>88
+	</td>
+	<td>escape_strings
+	</td>
+	<td>escape_string
+	</td>
+	<td>Antonello Mangone
+	</td>
+	</tr>
+
+        <tr  class="alt">
+            <td>95
+            </td>
+            <td>VALUES ('#{PGconn.quote(name)}');")
+            </td>
+            <td>VALUES (#{PGconn.quote(name)});")
+            </td> 
+       <td>Antonello Mangone
+        </td>
+    </tbody>
+
+</table>
+
+
+
+
+
+		
+        <hr />
+        
+        <div>    
+            <p>
+                Qualora rilevaste degli errori, siete invitati a segnalarli 
+                inviando una e-mail al seguente indirizzo:            
+            </p>
+            
+            <address><a href="mailto:errata@marcoceresa.com">errata@marcoceresa.com</a></address>
+            
+        <!-- /col -->
+        </div>
+
+    <!-- /clear-float -->
+    </div>
+
+<!-- /main -->
+</div> 
+<!-- /main-w -->
+</div> 
+
+<!--#config timefmt="%d %b %Y" -->
+<div id="footer">    
+    <p>    
+       <a href="errata.shtml#header">Top &uarr;</a> | 
+       <a href="index.html">Il Libro</a> |       
+       <a href="authors.shtml">Gli Autori</a> |
+       <a href="toc.shtml">Indice</a> | 
+       <a href="errata.shtml">Errata</a>  
+    </p>                    
+    
+    <p id="copryright">
+       Copyright &copy; 2006 Marco Ceresa. Tutti i diritti riservati. Sito web realizzato da <a href="http://passiomatic.com/">Andrea Peltrin</a>.
+    </p>        
+    
+    <p id="last-modified">Ultimo aggiornamento <!--#echo var="LAST_MODIFIED" --></p>
+<!-- /footer -->
+</div>
+
+
+</body>
+</html>

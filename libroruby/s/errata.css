@@ -1,0 +1,31 @@
+
+
+table#errata {
+	
+	
+}
+
+table#errata th {
+	padding: .2em .2em;
+	padding-right: 1em;
+	
+	border-bottom: 1px solid #aaa;
+	
+}
+
+
+table#errata td {
+	padding: .4em .2em;
+	padding-right: 1em;
+	
+}
+
+table#errata code {
+	color:#0B4F70;
+	
+}
+
+table#errata tr.alt {
+	background:  #F0F9FC;
+	
+}

@@ -1,0 +1,570 @@
+@import url("typo.css");
+@import url("form.css");
+
+/*
+Design by Andrea Peltrin <http://passiomatic.com/>
+*/
+
+/* ---------------------------------------------------
+=page
+------------------------------------------------------ */
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	
+	direction: ltr;
+}
+
+body { 	
+	margin: 0;
+	padding: 0;
+	
+	color: #000;		
+	background: #414548;
+
+	font: normal small/150% Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------------------------------------------------
+=titles
+------------------------------------------------------ */
+
+
+h1, h2, h3, h4, h5, h6, caption {
+	
+	margin: 0;			
+	margin-bottom: .5em;			
+	
+	padding: 0;     
+		
+	font: normal 110%/100% Arial, Helvetica, sans-serif;
+	
+	color: #333;
+	
+	
+}
+
+h1 {
+	margin: .4em 0;			
+	margin-bottom: .6em;			
+	padding: 0;     
+	
+	font: bold 350%/100% Arial, Helvetica, sans-serif;
+	color: #888;
+	
+	letter-spacing: -2px;
+}
+
+
+h1 span {
+	color: #EB3D00;	
+}
+
+
+h2 {
+	font-size: x-large;
+	/*text-transform: uppercase;*/
+}
+
+h3 {
+	margin-top: 1em;
+	
+	font-weight: bold;
+}
+
+/* ---------------------------------------------------
+=misc
+------------------------------------------------------ */
+
+a img {
+	border: none;
+}
+
+hr {
+	visibility: hidden;
+	
+	margin: 0;
+	margin-top: 2em;
+	padding: 0;
+	
+	border: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* ---------------------------------------------------
+=main
+------------------------------------------------------ */
+
+#main, #footer, #header {
+	width: 57em;
+	
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+#main-w {		
+	background: #fff;		
+	/* space up #main contents from 
+		header and footer */
+	padding: 2em 0;
+}
+
+#main {
+
+}
+
+
+/* ---------------------------------------------------
+=header 
+------------------------------------------------------ */
+
+#header  {
+	color: #fff;	
+}
+
+#logo {
+	
+}
+
+
+
+/* ---------------------------------------------------
+=top-menu 
+------------------------------------------------------ */
+
+
+/*
+  see "Sliding Doors of CSS"
+  http://alistapart.com/articles/slidingdoors/
+*/
+
+#top-menu {
+  margin: 0;
+  list-style: none;
+
+  margin: 0;  
+  padding: 0;
+  
+}
+
+
+#top-menu li {	
+	float: left;
+	
+	padding: 0;
+	padding-left: 10px; /* space for left.gif */
+	
+	margin: 0;
+	/* space from next tab */
+	margin-right: .3em; 
+		
+	background: #fff url("../i/left.gif") no-repeat left top;
+}
+
+#top-menu a {
+	display: block;  
+	
+	background: transparent url("../i/right.gif") no-repeat right top;
+    
+	/* fine-tune padding around tab text */
+	padding: 7px 0 5px 0;
+	padding-right: 10px;  /* == space left.gif */
+
+	font-size: 110%;
+}
+
+/* Commented Backslash Hack
+   hides rule from IE5-Mac \*/
+#top-menu a {float:none;}
+/* End IE5-Mac hack */
+
+
+#top-menu #current {
+  background-image: url("../i/left_on.gif");
+}
+  
+#top-menu #current a {
+  background-image: url("../i/right_on.gif");
+  
+  color: #000;
+  padding-bottom:5px;
+}
+
+#top-menu a:link, #top-menu a:visited, 
+#top-menu a:hover, #top-menu a:active {
+	border: none;	
+	
+	color: #fff;
+	font-weight: bold;
+}
+
+#top-menu a:hover {
+	color: #000;
+}
+
+#top-menu #current a:hover {	
+	color: #EB3D00;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+=col
+------------------------------------------------------ */
+
+/* primary col */
+.col1 {
+	margin-right: 2em;	
+	
+	width: 34em;
+	float: left;	
+	
+/*	background: red;*/
+}
+
+/* secondary col */
+.col2 {	
+	width: 21em;
+	float: left;	
+	
+/*	background: red;*/
+}
+
+.last {
+	margin-right: 0;	
+}
+
+/* ---------------------------------------------------
+=table
+------------------------------------------------------ */
+
+table {
+	border-collapse: collapse;
+	margin: .5em 0;
+	
+	background: transparent;
+	
+	width: 100%;
+	
+	display: block;
+}
+
+
+table thead {
+	
+}
+
+table th {
+	text-align: left;	
+}
+
+
+/*
+col.alt, tr.alt {
+	
+}
+*/
+
+
+table td {
+	vertical-align: top;
+	text-align: left;
+}
+
+
+/* ---------------------------------------------------
+=footer
+------------------------------------------------------ */
+
+#footer {	
+	color: #ccc;
+	padding: 2em 0;
+}
+
+#last-modified {
+	font-size: 90%;	
+	color: #999;
+}
+
+#copryright {
+	
+	margin-top: 1em;
+}
+
+/* ---------------------------------------------------
+=hyperlinks
+----------------------------------------------------- */
+
+a:link, a:visited, a:hover, a:active {
+
+	padding: 0;
+	padding-bottom: 1px;
+	
+	color: #006CA2;	
+	text-decoration: none;
+	
+	border-bottom: 1px dotted #79caf2;
+	
+}
+
+a:visited {		
+	/*color: #666;*/
+}
+
+a:hover {	
+	color: #EB3D00;
+	border: none;
+}
+
+
+
+.col2 a:link, .col2 a:visited, 
+.col2  a:hover, .col2 a:active {
+	font-weight: bold;
+}
+
+
+#footer a:link, #footer a:visited, 
+#footer a:hover, #footer a:active {
+	font-weight: bold;
+	color: #fff;	
+	
+	border-bottom: 1px dotted #ccc;
+}
+
+#footer a:hover {
+	color: #EB3D00;
+	border: none;
+}
+
+
+
+
+/* ---------------------------------------------------
+=utilities
+----------------------------------------------------- */
+
+.cut {clear: both;}
+.hidden { display: none;}
+.inline { display: inline; }
+.clear-float {	
+	/* auto-clear floated children */
+	overflow: hidden;
+	/* IE fix see:
+	http://www.positioniseverything.net/easyclearing.html		
+	*/
+	height: 1%;	
+}
+
+
+
+/* ---------------------------------------------------
+=misc
+------------------------------------------------------ */
+
+_ {
+	
+}
+
+
+.box {
+	color: #0b4f70;	
+	background: #f0f9fc;
+	
+	background: #f0f9fc url(../i/a-tl-corner.gif) top left no-repeat;
+}
+
+
+
+.box p {	
+	margin: 0; /* reset  value */
+	
+	padding: .5em;
+	background: transparent url(../i/a-br-corner.gif) bottom right no-repeat;
+
+}
+
+
+
+
+/* ---------------------------------------------------
+=homepage
+------------------------------------------------------ */
+
+#about-the-book {	
+	font: normal large/150% Georgia, serif;
+		
+	margin-bottom: 2em;
+	color: #333;
+}
+
+#about-the-book-2 {
+	
+}
+
+#about-the-book-2 p {
+	margin: 0;
+	/*margin-left: 1em;*/
+	
+	text-indent: 1em;
+	
+	line-height: 150%;
+	font-size: 110%;
+}
+
+#about-the-book-2 img+p  {
+	text-indent: 0;
+}
+
+#about-the-book-2 img {
+	border: 1px solid #666;
+	
+	display: block;	
+	margin: 0;
+	margin-right: .5em;
+	
+	float: left;
+}
+
+#about-ruby {	
+	color: #0b4f70;	
+	background: #f0f9fc url(../i/a-tl-corner.gif) top left no-repeat;	
+}
+
+#about-ruby h2 {	
+	color: #0b4f70;	
+}
+
+#about-ruby div {	
+	background: transparent url(../i/a-br-corner.gif) bottom right no-repeat;
+	
+	padding: 1em;
+}
+
+#about-ruby li {
+	margin: 0;
+	/*margin-left: 1em;*/ /* same for about-the-book-2 p */
+	padding: 0;
+	/*padding-bottom: .5em;*/
+}
+
+#about-ruby li p {	
+	font-size: 90%;
+	
+	text-indent: 1em;
+}
+
+
+
+#about-ruby li span {
+	color: #EB3D00;
+	
+	font-size: 120%;	
+	font-weight: bold;
+}
+
+#about-ruby ul {
+	list-style: none;
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ---------------------------------------------------
+=authors
+------------------------------------------------------ */
+
+#authors {
+	width: 36em;
+	
+}
+
+#authors dl {
+
+}
+
+
+#authors dt {
+	font-size: large;
+	
+	color: #EB3D00;
+	margin-bottom: .3em;
+}
+
+#authors dd {
+	margin-bottom: 1.5em;
+	margin-left: 1em;
+
+}
+
+#authors dt#a-ceresa {
+	
+}
+
+
+
+/* ---------------------------------------------------
+=toc
+------------------------------------------------------ */
+
+#toc {
+	/*width: 36em;*/
+	
+
+}
+
+
+#toc-sections {	
+	color: #0b4f70;	
+	background: #f0f9fc url(../i/a-tl-corner.gif) top left no-repeat;	
+}
+
+#toc-sections h3 {	
+	margin-top: 0;
+	color: #0b4f70;	
+}
+
+#toc-sections div {	
+	background: transparent url(../i/a-br-corner.gif) bottom right no-repeat;	
+	padding: 1em;
+}
+
+
+
+#toc dl {
+}
+
+
+#toc dt {
+	font-size: large;
+	
+	color: #EB3D00;
+	margin-bottom: .3em;
+}
+
+#toc dd {
+	margin-bottom: 1.5em;
+	margin-left: 1em;
+
+}
+
+#toc dd p {
+	margin-left: 1em;
+
+}
+
+/* ---------------------------------------------------
+=errata
+------------------------------------------------------ */
+

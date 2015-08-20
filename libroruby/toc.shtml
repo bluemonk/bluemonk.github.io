@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Indice dei capitoli [Ruby per applicazioni web]</title>
+<meta name="description" content="Ruby per applicazioni web, il primo libro italiano su Ruby" /> 
+<link rel="stylesheet" href="s/site.css" type="text/css" media="screen" />
+
+<meta name="description" content="Ruby per applicazioni web, il primo libro italiano su Ruby" /> 
+<link rel="stylesheet" href="s/site.css" type="text/css" media="screen" />
+</head>
+<body>
+
+<div class="hidden"><a href="toc.shtml#content">Skip to contents</a></div>    
+<div id="header">                
+
+    <h1><span>Ruby</span> per applicazioni web</h1>
+
+    <ul id="top-menu" class="clear-float">
+        <li><a href="index.html">Il Libro</a></li>       
+        <li><a href="authors.shtml">Gli Autori</a></li>
+        <li id="current"><a href="toc.shtml">Indice</a></li>        
+        <li><a href="errata.shtml">Errata</a></li>
+    </ul>
+   
+</div> <!-- /header -->
+
+<div id="main-w">
+<div id="main">
+    
+    <h2>Indice dei Capitoli</h2>
+
+    <div class="clear-float">
+            
+        <div class="col1" id="toc">    
+            <dl>
+                <dt id="s-learning">Imparare Ruby
+                </dt>
+                <dd>
+                    <h3>Capitolo 1</h3>
+                    <p>
+                        Introduzione a Ruby: vedremo come è nato Ruby, come si è sviluppato,
+                        quali sono le sue caratteristiche principali. Ci occuperemo della sua installazione
+                        sulle piattaforme più diffuse e faremo conoscenza con i due migliori amici che ci
+                        guideranno nell'apprendimento.
+                    </p>
+                </dd>                  
+
+                <dd>
+                    <h3>Capitolo 2</h3>
+                    <p>
+                      Finalmente la programmazione a oggetti: scopriremo come i paradigmi
+                        di Ruby siano vicini al nostro modo di pensare e di vedere il mondo, tanto che lo
+                        sviluppo con questo linguaggio diventa un'attività del tutto naturale. Daremo anche
+                        uno sguardo approfondito ai principali tipi di dati in Ruby.
+                    </p>
+                </dd>                  
+
+                <dd>
+                    <h3>Capitolo 3</h3>
+                    <p>
+                      Tratteremo in questo capitolo il controllo di flusso nei programmi Ruby, le
+                        espressioni condizionate, i cicli e in particolare i blocchi, struttura affatto peculiare
+                        di questo linguaggio che si pone di prepotenza nella lista dei desideri di ciascun
+                        programmatore, in particolare per la creazione di iteratori.
+                    </p>
+                </dd>    
+
+
+                <dd>
+                    <h3>Capitolo 4</h3>
+                    <p>
+                       Programmazione avanzata, per coloro che desiderano approfondire tutti
+                        gli aspetti della programmazione Ruby. Si parlerà quindi di moduli, variabili di
+                        classe, ereditarietà e <i>mixin</i>, metodi <i>singleton</i>, visibilità dei metodi 
+                        e passaggio dei parametri.
+                    </p>
+                </dd>   
+
+
+                <dd>
+                    <h3>Capitolo 5</h3>
+                    <p>
+                       In questo capitolo esamineremo la gestione degli errori in Ruby, scoprendo
+                       i potenti metodi a nostra disposizione per verificare il buon funzionamento di un
+                       programma, e nel caso intervenire tempestivamente.
+                    </p>
+                </dd>   
+    
+
+                <dd>
+                    <h3>Capitolo 6</h3>
+                    <p>
+                        Scritto da Nicholas Wieland, questo capitolo prende in esame l'utilizzo di
+                        Ruby con i più importanti database, MySQL e PostGreSQL, con un'occhiata anche
+                        alla libreria DBI per l'interfacciamento agli altri database. Si vedranno esempi concreti
+                        di programmazione e di gestione di basi di dati reali. Completano il capitolo cenni
+                        all'uso di PStore e ActiveRecord, l'interfaccia resa celebre da Rails.
+                    </p>
+                </dd>   
+    
+
+                <dd>
+                    <h3>Capitolo 7</h3>
+                    <p>
+                       Chi ha sempre sostenuto che la programmazione con i thread può risultare
+                        difficile dovrà ricredersi: vedremo le principali modalità e gli ambiti di utilizzo della
+                        programmazione concorrente con Ruby, usando la libreria Thread.
+                    </p>
+                </dd>   
+
+                <dt id="s-web">Ruby e il Web
+                </dt>
+                <dd>
+                    <h3>Capitolo 8</h3>
+                    <p>
+                     Cominciamo la panoramica dedicata allo sviluppo web con questo capitolo, 
+                    in cui tratteremo CGI e l'omonima libreria: passaggio di informazioni tra le
+                    pagine, generazione di codice HTML, gestione di cookie e sessioni e in generale la
+                    programmazione lato server per la creazione di pagine dinamiche.
+                    </p>                    
+                </dd>   
+                <dd>
+                    <h3>Capitolo 9</h3>
+                    <p>
+                    Grazie all'utilizzo di Ruby embedded, possiamo finalmente staccarci da PHP
+                    per le nostre applicazioni web e usare Ruby in ogni ambito. Con molti esempi, questo
+                    capitolo mostra come usare eruby per includere codice nelle pagine HTML.
+                    </p>                    
+                </dd>                   
+
+                <dd>
+                    <h3>Capitolo 10</h3>
+                    <p>
+                   Una completa applicazione web scritta in Ruby per l'accesso al database e
+                    la realizzazione di un negozio online, sfruttando quello sin qui imparato e le nozioni
+                    presenti nei capitoli precedenti. Una sorta di guida per prendere confidenza con le
+                    procedure di sviluppo utilizzate dai professionisti.
+                    </p>                    
+                </dd>  
+ 
+                <dd>
+                    <h3>Capitolo 11</h3>
+                    <p>
+                        Sicurezza, usabilità e accessibilità , tre argomenti a volte sottovalutati ma
+                        più che mai attuali nel panorama odierno.
+                    </p>                    
+                </dd>  
+                <dd>
+                    <h3>Capitolo 12</h3>
+                    <p>
+                      Come tanti altri linguaggi, anche Ruby ha il suo server web integrato: si
+                        tratta di Webrick, di cui esamineremo tutte le funzionalità.
+                    </p>                    
+                </dd>                 
+    
+                <dt id="s-libraries">Le Librerie di Ruby
+                </dt>
+                <dd>
+                    <h3>Capitolo 13</h3>
+                    <p>
+                     Ruby dispone di due sistemi principali di gestione dei pacchetti, entrambi 
+                    oggetto di analisi in questo capitolo. Setup.rb e Rubygems saranno i sistemi da
+                    scegliere per installare o distribuire il nostro software.  
+                    </p>                    
+                </dd>  
+                <dd>
+                    <h3>Capitolo 14</h3>
+                    <p>
+                     Una completa panoramica delle principali librerie di rete, dalla 
+                     immancabile <code>Net::HTTP</code> sino alla gestione di protocolli quali FTP e Telnet. Completano
+                    il capitolo i paragrafi relativi ai protocolli di invio e ricezione della posta.
+                    </p>                    
+                </dd>    
+
+                <dd>
+                    <h3>Capitolo 15</h3>
+                    <p>
+                    Per la prima volta in un libro dedicato a Ruby si potranno trovare le analisi
+  delle più importanti librerie di grafica disponibili: rMagick per la manipolazione
+  delle immagini, Rrdtool per la generazione di reportistica, MRPlot e Gruff per la
+  creazione di grafici. In fondo al capitolo cenni all'utilizzo del celebre portale di
+  condivisione delle immagini Flickr.com, con la sua API portata anche in Ruby.
+                    </p>                    
+                </dd> 
+            
+                <dd>
+                    <h3>Capitolo 16</h3>
+                    <p>
+                     Mai più senza XML e YAML, i due linguaggi di markup del momento.
+  Ruby dispone di eccellenti librerie per il trattamento di questi due formati, e nel corso
+  del capitolo avremo modo di esaminarle con cura in vari esempi di reale utilizzo.
+                    </p>                    
+                </dd>             
+
+                <dd>
+                    <h3>Capitolo 17</h3>
+                    <p>
+                   Di Lawrence Oluyede, esperto del settore, il capitolo dedicato al mondo
+  delle informazioni con RSS e Atom, dalla gestione semplice e potente.
+                    </p>                    
+                </dd>    
+
+                <dd>
+                    <h3>Capitolo 18</h3>
+                    <p>
+                  Per chi non ha mai avuto a che fare con la programmazione distribuita,
+                    come per coloro che ne mangiano tutti i giorni, questo capitolo presenta le soluzioni
+                    disponibili in Ruby pronte all'uso: serializzazione, distributed Ruby e SOAP.
+                    </p>                    
+                </dd>    
+            
+                <dd>
+                    <h3>Capitolo 19</h3>
+                    <p>
+                 Gabriele Renzi, leader della comunità Ruby italiana, insegna come scrivere
+  codice corretto utilizzando i test e la suite Test::Unit di Ruby, scritta appositamente
+  per verificare le proprie applicazioni.
+                    </p>                    
+                </dd>  
+                
+                <dd>
+                    <h3>Capitolo 20</h3>
+                    <p>
+                 Chi di noi non ha mai sognato di avere un tool che possa automatizzare
+                 tutti i lavori più noiosi? Adesso esiste Rake, un sostituto di make scritto in Ruby,
+                che potrà esaudire anche i desideri dei più pigri.
+                    </p>                    
+                </dd>       
+                
+                <dd>
+                    <h3>Capitolo 21</h3>
+                    <p>
+                    Un buon codice non vale senza documentazione. Per fortuna Ruby
+                    rende divertente anche questo passaggio del ciclo produttivo del software, grazie a
+                    Rddtool e soprattutto a RDoc, eccezionali e insostituibili strumenti.
+                    </p>                    
+                </dd>                   
+
+                <dt id="s-a">Appendici
+                </dt>
+                <dd>
+                    <p>
+                        Scritte da Alessandro Bianco, Gabriele Renzi e Antonio Cangiano, le
+                        appendici si propongono come il naturale completamento dei capitoli, ampliando o
+                        riprendendo molti degli argomenti. Vedremo in particolare che cosa ci aspetta nelle
+                        prossime edizioni di Ruby ed esamineremo il nuovissimo StarterKit IBM per essere
+                        produttivi con Ruby, Rails e DB2, il celeberrimo database di Big Blue.
+                    </p>                    
+                </dd>  
+
+            </dl>
+            
+        <!-- /col -->
+        </div>
+
+        <div class="col2" id="toc-sections">                
+            <div>
+            <h3>Le Sezioni</h3>
+            <ul>
+                <li><a href="toc.shtml#s-learning">Imparare Ruby</a></li>
+                <li><a href="toc.shtml#s-web">Ruby e il Web</a></li>
+                <li><a href="toc.shtml#s-libraries">Le Librerie di Ruby</a></li>
+                <li><a href="toc.shtml#s-a">Appendici</a></li>
+            </ul>
+            </div>
+        <!-- /col -->
+        </div>
+
+    <!-- /clear-float -->
+    </div>
+
+<!-- /main -->
+</div> 
+<!-- /main-w -->
+</div> 
+
+<!--#config timefmt="%d %b %Y" -->
+<div id="footer">    
+    <p>    
+       <a href="toc.shtml#header">Top &uarr;</a> | 
+       <a href="index.html">Il Libro</a> |       
+       <a href="authors.shtml">Gli Autori</a> |
+       <a href="toc.shtml">Indice</a> | 
+       <a href="errata.shtml">Errata</a>  
+    </p>                    
+    
+    <p id="copryright">
+       Copyright &copy; 2006 Marco Ceresa. Tutti i diritti riservati. Sito web realizzato da <a href="http://passiomatic.com/">Andrea Peltrin</a>.
+    </p>        
+    
+    <p id="last-modified">Ultimo aggiornamento <!--#echo var="LAST_MODIFIED" --></p>
+<!-- /footer -->
+</div>
+
+
+</body>
+</html>
+

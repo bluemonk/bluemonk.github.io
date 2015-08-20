@@ -1,0 +1,223 @@
+/* --------------------
+definition list
+---------------------*/
+
+dl {
+	/* reset default margins */
+	margin: .5em 0; 
+	padding: 0;
+}
+
+dd {
+	/* reset default margins */
+	margin: 0; 
+	padding: 0;
+}
+
+/*
+dd:before {
+	content: '> ';
+
+}
+*/
+
+dt {
+	margin: 0;
+	margin-top: .5em; 
+	
+	padding: 0;
+
+}
+
+
+/* --------------------
+lists
+---------------------*/
+
+ol, ul {
+	padding: 0;	
+	margin: .5em 0;
+	
+	margin-left: 2em;	
+}
+
+ul {
+	list-style: outside circle;
+
+}
+
+li {
+	margin: 0;
+	margin-top: .3em;
+}
+
+/* --------------------
+para
+---------------------*/
+
+p {
+	
+	margin-bottom: .5em;
+	padding: 0;	
+}
+
+/* --------------------
+emphasis
+---------------------*/
+
+em {
+	/* keep defaults */
+/*	background: #ffffcc;
+	font-style: normal;*/
+}
+
+strong {
+	/* keep defaults */
+}
+
+
+/* --------------------
+phrase elements
+---------------------*/
+
+abbr, acronym
+{	
+	cursor: help;     
+
+	border-bottom: 1px solid #ccc;		
+	/*font-size: 85%;*/
+	
+}
+
+
+ins, del 
+{
+	
+}
+
+del
+{
+	text-decoration: line-through; 
+}
+
+ins
+{
+    text-decoration: underline;     
+}
+
+ins:before
+{
+	/* content: '[' */
+}
+
+ins:after
+{
+	/* content: ']' */
+}
+
+
+
+address {
+	/*color: #9d6cd9;*/
+	
+	font-style: normal;
+	font-weight: bold;	
+	
+	font-size: medium;
+	
+	margin: .5em 0;
+}
+
+address span {
+	color: #666;
+	
+	font-weight: normal;
+}
+
+
+
+/* --------------------
+block/inline quotations, 
+check: http://diveintomark.org/archives/2002/05/04/the_q_tag.html
+---------------------*/
+
+blockquote  {
+   padding: 0;   
+   margin: .5em 2em;
+   
+   color: #666;
+   
+   font-style: italic;     
+   
+   font-size: 90%;
+}
+
+blockquote>p {
+   font-style: normal;    
+}
+
+blockquote>*:before {
+	content: open-quote; 
+}
+
+blockquote>*:after {
+	content: close-quote; 
+}
+
+
+cite, q {
+  font-style: italic;
+  
+  /* @@ change color? */
+}
+
+p>q, li>q, p>cite, li>cite { /* reset for mozilla, opera */
+  font-style: normal; 
+}
+
+cite, q {
+  quotes: '\201C' '\201D' '\2018' '\2019'; /* quote and quote within quote */
+  
+  color: #85E962;
+}
+
+cite:before, q:before {
+  content: open-quote;
+}
+
+cite:after, q:after {
+  content: close-quote;
+}
+
+
+/* --------------------
+geeks'  markup codes
+---------------------*/
+
+
+pre, code {
+	font-size: 100%; /* reset size for IE */
+}
+
+
+pre {
+	background: #eee;
+	
+	margin: 1.5em 0;
+	padding: .5em 5px;
+	
+	overflow: auto;
+}
+
+/* mostly used to indicate markup/language keywords*/
+code {
+	font-family: monospace;	
+	
+	font-weight: bold;
+	color: #EB3D00;
+}
+
+/* big chunk of code */
+pre code {
+	
+}

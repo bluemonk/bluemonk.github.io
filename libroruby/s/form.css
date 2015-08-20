@@ -1,0 +1,91 @@
+form {
+	margin: .5em 0;
+}
+
+fieldset {
+    padding: 0;
+	
+	margin: 0;    
+	margin-bottom: 1em;    
+
+    border: none;
+}
+
+legend {
+	
+}
+
+/* help text */
+#content fieldset p {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 90%;	
+	color: #666;
+}
+
+label {
+    display: block; 
+
+    margin: 0;
+    margin-top: .5em; 
+    margin-bottom: .1em; 
+}
+
+label span {
+	font-size: 90%;
+	color: #666;
+}
+
+input, select, textarea {        
+    padding: .2em;
+    margin: 0;    
+    
+	border: 1px solid #999;
+	font: inherit;
+}
+
+input[type='text'], input[type='password'], textarea {
+    
+}
+
+
+textarea {    
+    line-height: 150%;    
+    width: 90%;
+}
+
+input:focus, 
+select:focus,
+textarea:focus {    
+	border: 1px solid #000;
+}
+
+input[type='submit'], input[type='reset'], input[type='button']  {    
+    margin: 0;
+    margin-right: .2em; /* space between the next button */
+}
+
+
+input[type='submit'] {
+    /*font-weight: bold;*/
+}
+
+input.button {
+	
+	font-weight: bold;	
+	
+	padding: .3em;
+	
+	color: #EB5EC5;
+	
+	border: 1px solid #999;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	
+	font-size: 90%;
+	
+	cursor: pointer;
+	
+	background: #fff url(http://marcoceresa.com/libroruby/i/bg-button.gif) bottom left repeat-x;
+}
